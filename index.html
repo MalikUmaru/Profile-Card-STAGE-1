@@ -1,19 +1,23 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card | AbdulMalik Umaru</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
+    <header>
+        <nav>
+          <a href="index.html">Home</a> | <a href="about.html">About Me</a> |
+          <a href="contact.html">Contact Us</a>
+        </nav>
+        
+      </header>
     <!-- Main Profile Card -->
     <article data-testid="test-profile-card">
-      <header>
-        <h2 data-testid="test-user-name">AbdulMalik Umaru</h2>
-      </header>
-
+      
+<h2 data-testid="test-user-name">AbdulMalik Umaru</h2>
       <p data-testid="test-user-bio">
         Passionate IT professional, building responsive, accessible web
         experiences.
@@ -21,14 +25,17 @@
 
       <figure>
         <img
-          src="AbdulMalik.jpg"
+          src="./images/AbdulMalik.jpg"
           alt="Profile photo of AbdulMalik Umaru"
           data-testid="test-user-avatar"
         />
         <figcaption>Frontend Developer</figcaption>
       </figure>
 
-      <p data-testid="test-user-time" id="user-time"></p>
+      <span
+        >Current Time:
+        <p data-testid="test-user-time" id="user-time"></p
+      ></span>
 
       <nav aria-label="Social links" data-testid="test-user-social-links">
         <ul>
@@ -84,96 +91,6 @@
       </section>
     </article>
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile Card | AbdulMalik Umaru</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Main Profile Card -->
-    <article data-testid="test-profile-card">
-      <header>
-        <h2 data-testid="test-user-name">AbdulMalik Umaru</h2>
-      </header>
-
-      <p data-testid="test-user-bio">
-        Passionate IT professional, building responsive, accessible web
-        experiences.
-      </p>
-
-      <figure>
-        <img
-          src="AbdulMalik.jpg"
-          alt="Profile photo of AbdulMalik Umaru"
-          data-testid="test-user-avatar"
-        />
-        <figcaption>Frontend Developer</figcaption>
-      </figure>
-
-      <p data-testid="test-user-time" id="user-time"></p>
-
-      <nav aria-label="Social links" data-testid="test-user-social-links">
-        <ul>
-          <li>
-            <a
-              href="https://x.com/home"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-testid="test-user-social-twitter"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/MalikUmaru"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-testid="test-user-social-github"
-              >GitHub</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/umaru-abdulmalik-28ba6464/"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-testid="test-user-social-linkedin"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <section aria-labelledby="hobbies-title" data-testid="test-user-hobbies">
-        <h3 id="hobbies-title">Hobbies</h3>
-        <ul>
-          <li>Coding</li>
-          <li>Traveling</li>
-          <li>Reading</li>
-        </ul>
-      </section>
-
-      <section
-        aria-labelledby="dislikes-title"
-        data-testid="test-user-dislikes"
-      >
-        <h3 id="dislikes-title">Dislikes</h3>
-        <ul>
-          <li>Injustice</li>
-          <li>Dishonesty</li>
-          <li>Gossip</li>
-        </ul>
-      </section>
-    </article>
-
-    <script src="script.js"></script>
-  </body>
-</html>
->>>>>>> 2553965c347560fe6a4e9ec3dab6e82edf2f6ad4
